@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "(gdb) Launch",
+        "type": "cppdbg",
+        "request": "launch",
+        // "program": "${workspaceFolder}/build/pub_test2",
+        // "program": "${workspaceFolder}/build/async_subscribe_old",
+        // "program": "${workspaceFolder}/build/mqtt_chat",
+        "program": "${workspaceFolder}/build/chat_client",
+        "preLaunchTask": "build",
+        "args": [],
+        "stopAtEntry": false,
+        // "cwd": "${workspaceFolder}/server/bin",
+        "cwd": "${workspaceFolder}/build",
+        // "environment": [
+        //     {
+        //         "name":"LD_LIBRARY_PATH",
+        //         "value":"${workspaceFolder}/ThirdParty/cyber/lib:${workspaceFolder}/ThirdParty/ffmpeg/lib:${workspaceFolder}/ThirdParty/jsoncpp/lib:${workspaceFolder}/ThirdParty/pcl-1.9.1/lib:${workspaceFolder}/ThirdParty/vtk-7.1.1/lib:${workspaceFolder}/ThirdParty/boost/lib:$LD_LIBRARY_PATH"
+        //     },
+        //     {
+        //         "name":"CYBER_PATH",
+        //         "value":"${workspaceFolder}/server"
+        //     }
+        // ],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ]
+      }
+    ]
+  }
