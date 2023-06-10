@@ -24,4 +24,4 @@
         
         "program": "${workspaceFolder}/build/chat_client",代表了可执行文件的路径
         
-            "cwd": "${workspaceFolder}/build",代表make的路径
+            "cwd": "${workspaceFolder}/build",代表makefile文件的路径
