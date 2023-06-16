@@ -3,12 +3,8 @@
         {
             "name": "gdb-adas",
             "includePath": [
-                "${workspaceFolder}/server/si_layer",
-                "${workspaceFolder}/parse",
-                "${workspaceFolder}/framework",
-                "${workspaceFolder}/common",
-                "${workspaceFolder}/playback",
-                "${workspaceFolder}/ThirdParty/jsoncpp"
+                "${workspaceFolder}/src/operation_adaptation/src/common",
+                    "${workspaceFolder}/src/operation_adaptation/src/communication"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
